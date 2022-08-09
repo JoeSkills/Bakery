@@ -39,6 +39,10 @@ body {
 
   font-size: var(--font-size);
 }
+a {
+  width: fit-content;
+  height: fit-content;
+}
 .hero {
   display: grid;
   grid-area: hero;
