@@ -39,10 +39,16 @@ body {
 
   font-size: var(--font-size);
 }
-a {
-  width: fit-content;
-  height: fit-content;
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+
+  color: inherit;
 }
+
 .hero {
   display: grid;
   grid-area: hero;
