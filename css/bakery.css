@@ -23,7 +23,7 @@
 
 body {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(auto, 100%);
   grid-template-rows: auto;
   grid-template-areas:
     'hero'
@@ -357,7 +357,7 @@ body {
 
   margin-top: 3.125rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   :root {
     --hero-font-size: 1.875rem;
     --font-size: 1rem;
@@ -370,12 +370,30 @@ body {
     height: 3.125rem;
   }
   .ss-m {
-    width: auto;
+    width: 9.275rem;
   }
   .ss-i {
     margin-top: 0;
   }
   body {
     font-size: var(--font-size);
+  }
+  .qualities {
+    grid-template-areas:
+      'cheap'
+      'delicious'
+      'quality';
+    grid-row-gap: 1.125rem;
+  }
+  .services {
+    grid-template-areas:
+      's-i'
+      'cc'
+      'mp'
+      'fir'
+      'egr';
+  }
+  .ab-m-i {
+    text-align: center;
   }
 }
