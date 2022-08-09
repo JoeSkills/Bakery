@@ -43,7 +43,7 @@ body {
   display: grid;
   grid-area: hero;
 
-  background: url(/images/hero-img.avif), #d9d9d9;
+  background: url(/images/hero-img.avif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -351,7 +351,7 @@ body {
   justify-content: center;
   grid-area: find-us-m;
 }
-.find-icon {
+.fp {
   width: 3.125rem;
   height: 3.125rem;
 
@@ -364,7 +364,6 @@ body {
   }
   .hero {
     font-size: var(--hero-font-size);
-    background: url(/images/hero-img.avif);
   }
   .ssp {
     width: 3.125rem;
