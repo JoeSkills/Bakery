@@ -364,6 +364,7 @@ body {
   }
   .hero {
     font-size: var(--hero-font-size);
+    background: url(/images/hero-img.avif);
   }
   .ssp {
     width: 3.125rem;
