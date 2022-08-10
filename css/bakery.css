@@ -44,16 +44,14 @@ a,
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
-
-  color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .hero {
   display: grid;
   grid-area: hero;
 
-  background: url(/images/hero-img.avif);
+  background-image: url(/images/hero-img.avif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
