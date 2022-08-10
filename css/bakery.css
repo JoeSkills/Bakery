@@ -46,7 +46,13 @@ a:focus,
 a:active {
   -webkit-tap-highlight-color: transparent;
 }
-
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+  opacity: 1;
+}
 .hero {
   display: grid;
   grid-area: hero;
